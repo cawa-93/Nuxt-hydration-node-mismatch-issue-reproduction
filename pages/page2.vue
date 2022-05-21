@@ -1,17 +1,22 @@
 <script lang="ts" setup>
-const {data} = await useFetch(() => '/api/profile', {
-  key: 'userdata',
-  headers: useRequestHeaders(['cookie']),
-})
+const {data} = await useFetch(() => '/api/profile')
 </script>
 
 <template>
-  <nuxt-layout name="cabinet">
-    <div>
-      Page2.
-      Profile: {{data}}
+<div>
+  <Teleport to="body">
+    <div v-if="false">
+      Teleported DIV
     </div>
-  </nuxt-layout>
+  </Teleport>
+  <div>
+    Page2.
+    {{data}}
+
+  </div>
+  <nuxt-link to="/">Home</nuxt-link>
+  <nuxt-link to="/page2">Page2</nuxt-link>
+</div>
 </template>
 
 <style scoped></style>
