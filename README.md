@@ -9,6 +9,6 @@ Steps to reproduce:
    
    ![зображення](https://user-images.githubusercontent.com/1662812/169662039-2c8965e7-c471-402f-bf9d-bbc7021a034a.png)
 6. Try navigate berween Home and Page2. Current behavior: It does not load when you go to another page. There is a white screen:
-
-https://user-images.githubusercontent.com/1662812/169662236-a20d53f0-e6ca-4d7f-ad4a-1d757a674c7c.mp4
+7. 
+https://user-images.githubusercontent.com/1662812/169662746-bba5aa89-8506-42d4-adfb-2735f533d1f6.mp4
 
